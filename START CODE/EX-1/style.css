@@ -1,0 +1,36 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+.container{
+    padding:30px 100px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.child{
+    background-color: white;
+    border-radius: 10px;
+    padding:20px;
+}
+.child p{
+    margin:0 0 20px 0;
+}
+.b{
+    border-radius: 30px;
+    padding:10px;
+    border: none;
+    cursor: pointer;
+}
+.color1{
+    background-color:#008080;
+    color: white;
+}
+.color2{
+    background-color:#FFA500;
+    color: black;
+}
+.color3{
+    background-color:#800080;
+    color: white;
+}
